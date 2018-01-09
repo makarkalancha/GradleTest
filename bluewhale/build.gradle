@@ -1,0 +1,51 @@
+import org.flywaydb.core.Flyway
+
+plugins {
+    id "org.flywaydb.flyway" version "3.2.1"
+}
+
+//group 'bluewhale'
+//version '1.0-SNAPSHOT'
+//
+//apply plugin: 'java'
+//
+//
+//sourceCompatibility = 1.8
+//
+//repositories {
+//    mavenCentral()
+//}
+
+
+
+flyway {
+    url = 'jdbc:h2:file:~/smart_finance/finance'
+    user = 'root'
+    password = 'root'
+    //http://stackoverflow.com/questions/16115055/flywayinit-doesnt-create-schema-database
+    // the create schema support is an all or nothing thing. If all schemas are missing, they all will be created, otherwise none will be created.
+    schemas = ['TEST123']
+    table = '_SCHEMA_VERSION'
+    baselineOnMigrate = true
+}
+
+dependencies {
+    compile 'org.flywaydb:flyway-core:4.0'
+    compile 'com.h2database:h2:1.4.191'
+}
+
+task world {
+    println "-2 world"
+//    flywayClean.execute()
+//    flywayMigrate.execute()
+}
+
+//task my_clean {
+//    println "-1 my_clean"
+//}
+//
+//world.dependsOn my_clean
+//test.dependsOn(world)
+
+flywayMigrate.dependsOn flywayClean
+world.dependsOn(flywayMigrate)

@@ -1,0 +1,321 @@
+00:35:54.280 [DEBUG] [org.gradle.internal.nativeintegration.services.NativeServices] Native-platform posix files is not available.  Continuing with fallback.
+00:35:57.795 [INFO] [org.gradle.BuildLogger] Starting Build
+00:35:57.810 [DEBUG] [org.gradle.BuildLogger] Gradle user home: C:\Users\Makar\.gradle
+00:35:57.813 [DEBUG] [org.gradle.BuildLogger] Current dir: D:\SRC\Java_work_dir\GradleTest
+00:35:57.816 [DEBUG] [org.gradle.BuildLogger] Settings file: null
+00:35:57.821 [DEBUG] [org.gradle.BuildLogger] Build file: null
+00:35:57.861 [DEBUG] [org.gradle.initialization.buildsrc.BuildSourceBuilder] Starting to build the build sources.
+00:35:57.866 [DEBUG] [org.gradle.initialization.buildsrc.BuildSourceBuilder] Gradle source dir does not exist. We leave.
+00:35:57.878 [DEBUG] [org.gradle.initialization.DefaultGradlePropertiesLoader] Found env project properties: []
+00:35:57.880 [DEBUG] [org.gradle.initialization.DefaultGradlePropertiesLoader] Found system project properties: []
+00:35:58.596 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Software Loopback Interface 1
+00:35:58.604 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? true
+00:35:58.616 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+00:35:58.619 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback address /127.0.0.1
+00:35:58.622 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback address /0:0:0:0:0:0:0:1
+00:35:58.624 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface Software Loopback Interface 1
+00:35:58.627 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (SSTP)
+00:35:58.641 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+00:35:58.655 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+00:35:58.656 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (SSTP)
+00:35:58.657 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (L2TP)
+00:35:58.672 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+00:35:58.683 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+00:35:58.685 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (L2TP)
+00:35:58.686 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (PPTP)
+00:35:58.700 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+00:35:58.709 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+00:35:58.711 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (PPTP)
+00:35:58.712 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (PPPOE)
+00:35:58.719 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+00:35:58.727 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+00:35:58.728 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (PPPOE)
+00:35:58.729 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (IPv6)
+00:35:58.738 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+00:35:58.747 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+00:35:58.749 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (IPv6)
+00:35:58.750 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (Network Monitor)
+00:35:58.757 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+00:35:58.766 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+00:35:58.768 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (Network Monitor)
+00:35:58.769 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (IP)
+00:35:58.776 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+00:35:58.785 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+00:35:58.787 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (IP)
+00:35:58.788 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface RAS Async Adapter
+00:35:58.796 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+00:35:58.804 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+00:35:58.805 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface RAS Async Adapter
+00:35:58.806 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (IKEv2)
+00:35:58.814 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+00:35:58.823 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+00:35:58.824 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (IKEv2)
+00:35:58.825 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Realtek PCIe GBE Family Controller
+00:35:58.834 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+00:35:58.842 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+00:35:58.843 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface Realtek PCIe GBE Family Controller
+00:35:58.844 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface VMware Virtual Ethernet Adapter for VMnet1
+00:35:58.854 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+00:35:58.861 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+00:35:58.863 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /192.168.206.1
+00:35:58.864 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /fe80:0:0:0:4111:bcc5:4426:975a%eth4
+00:35:58.865 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote multicast interface VMware Virtual Ethernet Adapter for VMnet1
+00:35:58.866 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface VMware Virtual Ethernet Adapter for VMnet8
+00:35:58.874 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+00:35:58.884 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+00:35:58.886 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /192.168.153.1
+00:35:58.887 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /fe80:0:0:0:fc97:c1de:896a:95b5%eth5
+00:35:58.888 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote multicast interface VMware Virtual Ethernet Adapter for VMnet8
+00:35:58.890 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface null
+00:35:58.898 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+00:35:58.905 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+00:35:58.906 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface null
+00:35:58.907 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface null
+00:35:58.914 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+00:35:58.923 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+00:35:58.924 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface null
+00:35:58.924 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface TAP-Windows Adapter V9
+00:35:58.933 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+00:35:58.945 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+00:35:58.946 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /fe80:0:0:0:a808:d2b5:d46a:d8e0%eth6
+00:35:58.948 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote multicast interface TAP-Windows Adapter V9
+00:35:58.949 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Microsoft 6to4 Adapter
+00:35:58.957 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+00:35:58.969 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+00:35:58.970 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface Microsoft 6to4 Adapter
+00:35:58.971 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Microsoft ISATAP Adapter #2
+00:35:58.980 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+00:35:58.988 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? false
+00:35:58.989 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Microsoft ISATAP Adapter
+00:35:58.997 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+00:35:59.008 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? false
+00:35:59.010 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Intel(R) Centrino(R) Wireless-N 1000 #2
+00:35:59.018 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+00:35:59.029 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+00:35:59.030 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /192.168.1.113
+00:35:59.031 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /2002:ceb4:fb62:0:3cd5:c873:caf9:6603
+00:35:59.032 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /2002:ceb4:fb62:0:d091:4f78:6e15:311a
+00:35:59.033 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /fe80:0:0:0:3cd5:c873:caf9:6603%wlan0
+00:35:59.034 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote multicast interface Intel(R) Centrino(R) Wireless-N 1000 #2
+00:35:59.035 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Microsoft Virtual WiFi Miniport Adapter
+00:35:59.042 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+00:35:59.050 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+00:35:59.051 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface Microsoft Virtual WiFi Miniport Adapter
+00:35:59.051 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Microsoft Virtual WiFi Miniport Adapter #2
+00:35:59.059 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+00:35:59.066 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+00:35:59.067 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface Microsoft Virtual WiFi Miniport Adapter #2
+00:35:59.068 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Teredo Tunneling Pseudo-Interface
+00:35:59.075 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+00:35:59.083 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? false
+00:35:59.084 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /fe80:0:0:0:0:100:7f:fffe%net9
+00:35:59.084 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Microsoft ISATAP Adapter #3
+00:35:59.092 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+00:35:59.099 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? false
+00:35:59.101 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /fe80:0:0:0:0:5efe:c0a8:9901%net10
+00:35:59.101 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface TAP Adapter OAS NDIS 6.0
+00:35:59.109 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+00:35:59.117 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+00:35:59.119 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /fe80:0:0:0:c82f:d497:59ee:2880%eth7
+00:35:59.119 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote multicast interface TAP Adapter OAS NDIS 6.0
+00:35:59.120 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Microsoft ISATAP Adapter #9
+00:35:59.131 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+00:35:59.139 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? false
+00:35:59.140 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /fe80:0:0:0:0:5efe:c0a8:ce01%net11
+00:35:59.141 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Microsoft ISATAP Adapter #4
+00:35:59.151 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+00:35:59.160 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? false
+00:35:59.161 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Microsoft ISATAP Adapter #8
+00:35:59.169 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+00:35:59.176 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? false
+00:35:59.177 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /fe80:0:0:0:0:5efe:c0a8:171%net13
+00:35:59.178 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Microsoft ISATAP Adapter #7
+00:35:59.186 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+00:35:59.193 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? false
+00:35:59.194 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Intel(R) Centrino(R) Wireless-N 1000 #2-Kaspersky Lab NDIS 6 Filter-0000
+00:35:59.203 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+00:35:59.211 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+00:35:59.212 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface Intel(R) Centrino(R) Wireless-N 1000 #2-Kaspersky Lab NDIS 6 Filter-0000
+00:35:59.213 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Intel(R) Centrino(R) Wireless-N 1000 #2-QoS Packet Scheduler-0000
+00:35:59.224 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+00:35:59.235 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+00:35:59.236 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface Intel(R) Centrino(R) Wireless-N 1000 #2-QoS Packet Scheduler-0000
+00:35:59.237 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Intel(R) Centrino(R) Wireless-N 1000 #2-Virtual WiFi Filter Driver-0000
+00:35:59.248 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+00:35:59.259 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+00:35:59.260 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface Intel(R) Centrino(R) Wireless-N 1000 #2-Virtual WiFi Filter Driver-0000
+00:35:59.262 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (Network Monitor)-Kaspersky Lab NDIS 6 Filter-0000
+00:35:59.272 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+00:35:59.284 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+00:35:59.285 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (Network Monitor)-Kaspersky Lab NDIS 6 Filter-0000
+00:35:59.286 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+00:35:59.296 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+00:35:59.306 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+00:35:59.308 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+00:35:59.309 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (IP)-Kaspersky Lab NDIS 6 Filter-0000
+00:35:59.318 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+00:35:59.326 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+00:35:59.327 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (IP)-Kaspersky Lab NDIS 6 Filter-0000
+00:35:59.328 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (IP)-QoS Packet Scheduler-0000
+00:35:59.338 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+00:35:59.348 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+00:35:59.350 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (IP)-QoS Packet Scheduler-0000
+00:35:59.351 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (IPv6)-Kaspersky Lab NDIS 6 Filter-0000
+00:35:59.358 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+00:35:59.367 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+00:35:59.368 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (IPv6)-Kaspersky Lab NDIS 6 Filter-0000
+00:35:59.369 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+00:35:59.376 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+00:35:59.384 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+00:35:59.385 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+00:35:59.386 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface TAP-Windows Adapter V9-Kaspersky Lab NDIS 6 Filter-0000
+00:35:59.393 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+00:35:59.401 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+00:35:59.401 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface TAP-Windows Adapter V9-Kaspersky Lab NDIS 6 Filter-0000
+00:35:59.402 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface TAP-Windows Adapter V9-QoS Packet Scheduler-0000
+00:35:59.413 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+00:35:59.423 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+00:35:59.424 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface TAP-Windows Adapter V9-QoS Packet Scheduler-0000
+00:35:59.425 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface TAP-Windows Adapter V9-WFP LightWeight Filter-0000
+00:35:59.434 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+00:35:59.443 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+00:35:59.444 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface TAP-Windows Adapter V9-WFP LightWeight Filter-0000
+00:35:59.444 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface TAP Adapter OAS NDIS 6.0-Kaspersky Lab NDIS 6 Filter-0000
+00:35:59.453 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+00:35:59.461 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+00:35:59.462 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface TAP Adapter OAS NDIS 6.0-Kaspersky Lab NDIS 6 Filter-0000
+00:35:59.463 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface TAP Adapter OAS NDIS 6.0-QoS Packet Scheduler-0000
+00:35:59.471 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+00:35:59.481 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+00:35:59.483 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface TAP Adapter OAS NDIS 6.0-QoS Packet Scheduler-0000
+00:35:59.484 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface TAP Adapter OAS NDIS 6.0-WFP LightWeight Filter-0000
+00:35:59.492 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+00:35:59.500 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+00:35:59.501 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface TAP Adapter OAS NDIS 6.0-WFP LightWeight Filter-0000
+00:35:59.502 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Intel(R) Centrino(R) Wireless-N 1000 #2-Native WiFi Filter Driver-0000
+00:35:59.509 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+00:35:59.517 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+00:35:59.518 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface Intel(R) Centrino(R) Wireless-N 1000 #2-Native WiFi Filter Driver-0000
+00:35:59.518 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Intel(R) Centrino(R) Wireless-N 1000 #2-WFP LightWeight Filter-0000
+00:35:59.526 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+00:35:59.536 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+00:35:59.536 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface Intel(R) Centrino(R) Wireless-N 1000 #2-WFP LightWeight Filter-0000
+00:35:59.567 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on cp_settings class cache for settings file 'D:\SRC\Java_work_dir\GradleTest\settings.gradle' (C:\Users\Makar\.gradle\caches\2.11\scripts\settings_djl60wqhpd1bkpj4swe2g00tu\cp_settings).
+00:35:59.570 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+00:35:59.722 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on settings class cache for settings file 'D:\SRC\Java_work_dir\GradleTest\settings.gradle' (C:\Users\Makar\.gradle\caches\2.11\scripts\settings_djl60wqhpd1bkpj4swe2g00tu\settings).
+00:35:59.723 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+00:36:00.267 [DEBUG] [org.gradle.initialization.ScriptEvaluatingSettingsProcessor] Timing: Processing settings took: 2.384 secs
+00:36:00.275 [INFO] [org.gradle.BuildLogger] Settings evaluated using settings file 'D:\SRC\Java_work_dir\GradleTest\settings.gradle'.
+00:36:00.914 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Transitioning model element 'tasks' from state Registered to Created
+00:36:00.934 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Running model element 'tasks' rule action Project.<init>.tasks()
+00:36:00.936 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Mutating tasks using Project.<init>.tasks()
+00:36:00.941 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Transitioning model element 'tasks' to state Discovered.
+00:36:00.945 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Running model element 'tasks' rule action Project.<init>.tasks()
+00:36:00.947 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Mutating tasks using Project.<init>.tasks()
+00:36:01.000 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Transitioning model element 'tasks' to state Created.
+00:36:01.275 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Transitioning model element 'tasks' from state Registered to Created
+00:36:01.277 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Running model element 'tasks' rule action Project.<init>.tasks()
+00:36:01.278 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Mutating tasks using Project.<init>.tasks()
+00:36:01.279 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Transitioning model element 'tasks' to state Discovered.
+00:36:01.280 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Running model element 'tasks' rule action Project.<init>.tasks()
+00:36:01.281 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Mutating tasks using Project.<init>.tasks()
+00:36:01.282 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Transitioning model element 'tasks' to state Created.
+00:36:01.294 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Transitioning model element 'tasks' from state Registered to Created
+00:36:01.295 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Running model element 'tasks' rule action Project.<init>.tasks()
+00:36:01.296 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Mutating tasks using Project.<init>.tasks()
+00:36:01.297 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Transitioning model element 'tasks' to state Discovered.
+00:36:01.298 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Running model element 'tasks' rule action Project.<init>.tasks()
+00:36:01.299 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Mutating tasks using Project.<init>.tasks()
+00:36:01.300 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Transitioning model element 'tasks' to state Created.
+00:36:01.308 [DEBUG] [org.gradle.initialization.ProjectPropertySettingBuildLoader] Looking for project properties from: D:\SRC\Java_work_dir\GradleTest\gradle.properties
+00:36:01.309 [DEBUG] [org.gradle.initialization.ProjectPropertySettingBuildLoader] project property file does not exists. We continue!
+00:36:01.312 [DEBUG] [org.gradle.initialization.ProjectPropertySettingBuildLoader] Looking for project properties from: D:\SRC\Java_work_dir\GradleTest\bluewhale\gradle.properties
+00:36:01.313 [DEBUG] [org.gradle.initialization.ProjectPropertySettingBuildLoader] project property file does not exists. We continue!
+00:36:01.314 [DEBUG] [org.gradle.initialization.ProjectPropertySettingBuildLoader] Looking for project properties from: D:\SRC\Java_work_dir\GradleTest\krill\gradle.properties
+00:36:01.315 [DEBUG] [org.gradle.initialization.ProjectPropertySettingBuildLoader] project property file does not exists. We continue!
+00:36:01.317 [INFO] [org.gradle.BuildLogger] Projects loaded. Root project using build file 'D:\SRC\Java_work_dir\GradleTest\build.gradle'.
+00:36:01.318 [INFO] [org.gradle.BuildLogger] Included projects: [root project 'GradleTest', project ':bluewhale', project ':krill']
+00:36:01.652 [INFO] [org.gradle.configuration.project.BuildScriptProcessor] Evaluating root project 'GradleTest' using build file 'D:\SRC\Java_work_dir\GradleTest\build.gradle'.
+00:36:01.668 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on cp_proj class cache for build file 'D:\SRC\Java_work_dir\GradleTest\build.gradle' (C:\Users\Makar\.gradle\caches\2.11\scripts\build_7ccj5rpmh6hs1tloncua3njwx\cp_proj).
+00:36:01.669 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+00:36:01.679 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on proj class cache for build file 'D:\SRC\Java_work_dir\GradleTest\build.gradle' (C:\Users\Makar\.gradle\caches\2.11\scripts\build_7ccj5rpmh6hs1tloncua3njwx\proj).
+00:36:01.680 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+00:36:03.095 [DEBUG] [org.gradle.api.internal.artifacts.mvnsettings.DefaultLocalMavenRepositoryLocator] No local repository in Settings file defined. Using default path: C:\Users\Makar\.m2\repository
+00:36:03.454 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Transitioning model element 'tasks.assemble' from state Registered to Initialized
+00:36:03.456 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Running model element 'tasks.assemble' rule action tasks.addPlaceholderAction(assemble)
+00:36:03.457 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Mutating tasks.assemble using tasks.addPlaceholderAction(assemble)
+00:36:03.458 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Transitioning model element 'tasks.assemble' to state Discovered.
+00:36:03.459 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Running model element 'tasks.assemble' rule action tasks.addPlaceholderAction(assemble)
+00:36:03.460 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Mutating tasks.assemble using tasks.addPlaceholderAction(assemble)
+00:36:03.558 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Transitioning model element 'tasks.assemble' to state Created.
+00:36:03.559 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Transitioning model element 'tasks.assemble' to state DefaultsApplied.
+00:36:03.559 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Running model element 'tasks.assemble' rule action copyToTaskContainer
+00:36:03.560 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Mutating tasks.assemble using copyToTaskContainer
+00:36:03.563 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Transitioning model element 'tasks.assemble' to state Initialized.
+00:36:05.445 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Transitioning model element 'tasks.check' from state Registered to Initialized
+00:36:05.447 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Running model element 'tasks.check' rule action tasks.addPlaceholderAction(check)
+00:36:05.450 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Mutating tasks.check using tasks.addPlaceholderAction(check)
+00:36:05.451 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Transitioning model element 'tasks.check' to state Discovered.
+00:36:05.453 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Running model element 'tasks.check' rule action tasks.addPlaceholderAction(check)
+00:36:05.454 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Mutating tasks.check using tasks.addPlaceholderAction(check)
+00:36:05.457 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Transitioning model element 'tasks.check' to state Created.
+00:36:05.458 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Transitioning model element 'tasks.check' to state DefaultsApplied.
+00:36:05.460 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Running model element 'tasks.check' rule action copyToTaskContainer
+00:36:05.461 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Mutating tasks.check using copyToTaskContainer
+00:36:05.462 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Transitioning model element 'tasks.check' to state Initialized.
+00:36:06.054 [DEBUG] [org.gradle.configuration.project.BuildScriptProcessor] Timing: Running the build script took 4.4 secs
+00:36:06.103 [INFO] [org.gradle.configuration.project.BuildScriptProcessor] Evaluating project ':bluewhale' using build file 'D:\SRC\Java_work_dir\GradleTest\bluewhale\build.gradle'.
+00:36:06.114 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on cp_proj class cache for build file 'D:\SRC\Java_work_dir\GradleTest\bluewhale\build.gradle' (C:\Users\Makar\.gradle\caches\2.11\scripts\build_5ndxm8fl4a0mc54v877fwwn6h\cp_proj).
+00:36:06.116 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+00:36:06.124 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on proj class cache for build file 'D:\SRC\Java_work_dir\GradleTest\bluewhale\build.gradle' (C:\Users\Makar\.gradle\caches\2.11\scripts\build_5ndxm8fl4a0mc54v877fwwn6h\proj).
+00:36:06.125 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+00:36:06.159 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Transitioning model element 'tasks.assemble' from state Registered to Initialized
+00:36:06.161 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Running model element 'tasks.assemble' rule action tasks.addPlaceholderAction(assemble)
+00:36:06.161 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Mutating tasks.assemble using tasks.addPlaceholderAction(assemble)
+00:36:06.163 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Transitioning model element 'tasks.assemble' to state Discovered.
+00:36:06.164 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Running model element 'tasks.assemble' rule action tasks.addPlaceholderAction(assemble)
+00:36:06.165 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Mutating tasks.assemble using tasks.addPlaceholderAction(assemble)
+00:36:06.167 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Transitioning model element 'tasks.assemble' to state Created.
+00:36:06.168 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Transitioning model element 'tasks.assemble' to state DefaultsApplied.
+00:36:06.169 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Running model element 'tasks.assemble' rule action copyToTaskContainer
+00:36:06.170 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Mutating tasks.assemble using copyToTaskContainer
+00:36:06.171 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Transitioning model element 'tasks.assemble' to state Initialized.
+00:36:06.222 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Transitioning model element 'tasks.check' from state Registered to Initialized
+00:36:06.223 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Running model element 'tasks.check' rule action tasks.addPlaceholderAction(check)
+00:36:06.227 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Mutating tasks.check using tasks.addPlaceholderAction(check)
+00:36:06.229 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Transitioning model element 'tasks.check' to state Discovered.
+00:36:06.230 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Running model element 'tasks.check' rule action tasks.addPlaceholderAction(check)
+00:36:06.231 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Mutating tasks.check using tasks.addPlaceholderAction(check)
+00:36:06.233 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Transitioning model element 'tasks.check' to state Created.
+00:36:06.234 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Transitioning model element 'tasks.check' to state DefaultsApplied.
+00:36:06.235 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Running model element 'tasks.check' rule action copyToTaskContainer
+00:36:06.236 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Mutating tasks.check using copyToTaskContainer
+00:36:06.237 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Transitioning model element 'tasks.check' to state Initialized.
+00:36:06.260 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Transitioning model element 'tasks.clean' from state Registered to Initialized
+00:36:06.262 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Running model element 'tasks.clean' rule action tasks.addPlaceholderAction(clean)
+00:36:06.263 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Mutating tasks.clean using tasks.addPlaceholderAction(clean)
+00:36:06.264 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Transitioning model element 'tasks.clean' to state Discovered.
+00:36:06.265 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Running model element 'tasks.clean' rule action tasks.addPlaceholderAction(clean)
+00:36:06.266 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Mutating tasks.clean using tasks.addPlaceholderAction(clean)
+00:36:06.280 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Transitioning model element 'tasks.clean' to state Created.
+00:36:06.281 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Transitioning model element 'tasks.clean' to state DefaultsApplied.
+00:36:06.282 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Running model element 'tasks.clean' rule action copyToTaskContainer
+00:36:06.283 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Mutating tasks.clean using copyToTaskContainer
+00:36:06.284 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Transitioning model element 'tasks.clean' to state Initialized.
+00:36:06.296 [DEBUG] [org.gradle.configuration.project.BuildScriptProcessor] Timing: Running the build script took 0.192 secs
+00:36:06.910 [LIFECYCLE] [org.gradle.BuildResultLogger] 
+00:36:06.911 [LIFECYCLE] [org.gradle.BuildResultLogger] BUILD FAILED
+00:36:06.912 [LIFECYCLE] [org.gradle.BuildResultLogger] 
+00:36:06.913 [LIFECYCLE] [org.gradle.BuildResultLogger] Total time: 13.811 secs
+00:36:06.926 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cp_settings class cache for settings file 'D:\SRC\Java_work_dir\GradleTest\settings.gradle' (C:\Users\Makar\.gradle\caches\2.11\scripts\settings_djl60wqhpd1bkpj4swe2g00tu\cp_settings).
+00:36:06.927 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on settings class cache for settings file 'D:\SRC\Java_work_dir\GradleTest\settings.gradle' (C:\Users\Makar\.gradle\caches\2.11\scripts\settings_djl60wqhpd1bkpj4swe2g00tu\settings).
+00:36:06.928 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cp_proj class cache for build file 'D:\SRC\Java_work_dir\GradleTest\build.gradle' (C:\Users\Makar\.gradle\caches\2.11\scripts\build_7ccj5rpmh6hs1tloncua3njwx\cp_proj).
+00:36:06.929 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on proj class cache for build file 'D:\SRC\Java_work_dir\GradleTest\build.gradle' (C:\Users\Makar\.gradle\caches\2.11\scripts\build_7ccj5rpmh6hs1tloncua3njwx\proj).
+00:36:06.930 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cp_proj class cache for build file 'D:\SRC\Java_work_dir\GradleTest\bluewhale\build.gradle' (C:\Users\Makar\.gradle\caches\2.11\scripts\build_5ndxm8fl4a0mc54v877fwwn6h\cp_proj).
+00:36:06.931 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on proj class cache for build file 'D:\SRC\Java_work_dir\GradleTest\bluewhale\build.gradle' (C:\Users\Makar\.gradle\caches\2.11\scripts\build_5ndxm8fl4a0mc54v877fwwn6h\proj).
+00:36:06.932 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache artifact cache (C:\Users\Makar\.gradle\caches\modules-2) was closed 0 times.
+00:36:06.933 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedRepositoryFactory] In-memory dependency metadata cache closed. Repos cached: 0, cache instances: 0, modules served from cache: 0, artifacts: 0
+00:36:06.934 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.ResolutionResultsStoreFactory] Deleted 0 resolution results binary files in 0.0 secs
+00:36:06.936 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache Plugin Resolution Cache (C:\Users\Makar\.gradle\caches\2.11\plugin-resolution) was closed 0 times.
+00:36:06.937 [DEBUG] [org.gradle.api.internal.tasks.compile.daemon.CompilerDaemonManager] Stopping 0 compiler daemon(s).
+00:36:06.938 [INFO] [org.gradle.api.internal.tasks.compile.daemon.CompilerDaemonManager] Stopped 0 compiler daemon(s).

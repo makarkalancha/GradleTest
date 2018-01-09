@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GradleTest.iml" filepath="$PROJECT_DIR$/GradleTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bluewhale/bluewhale.iml" filepath="$PROJECT_DIR$/bluewhale/bluewhale.iml" />
+      <module fileurl="file://$PROJECT_DIR$/krill/krill.iml" filepath="$PROJECT_DIR$/krill/krill.iml" />
+    </modules>
+  </component>
+</project>
